@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import TrustedForm from './TrustedForm';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface FormModalProps {
   isOpen: boolean;
@@ -728,9 +729,13 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
                   </div>
                   <div className="disclaimer-text font-inter text-justify text-[#333333]">
                     <p className="text-xs md:text-sm">
-                      By clicking <span className="font-bold">&quot;Submit&quot;</span>, you
-                      agree to be contacted by National Debt Relief. Message &
-                      data rates may apply.
+                    By submitting this form, I agree to the Nation One Debt
+                      Relief <Link href="/terms-of-use" className="text-blue-500">Terms of Use</Link> and <Link href="/privacy-policy" className="text-blue-500">Privacy Policy</Link>. I authorize Nation
+                      One Debt Relief and its partners to send me marketing text
+                      messages or phone calls at the number provided, including
+                      those made with an autodialer. Standard message and data
+                      rates may apply. Message frequency varies. Opt-out anytime
+                      by replying STOP or using the unsubscribe link.
                     </p>
                   </div>
                 </div>

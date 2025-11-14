@@ -5,31 +5,21 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
-
   return (
     <>
       {/* MOBILE */}
       <div className="block md:hidden">
         <div className="bg-white px-4 py-6">
           <div className="flex justify-between items-center">
-            <div className="logo">
+            <Link href="/" className="logo">
               <Image
                 src="/logo.svg"
                 alt="Platinum Window Expert"
                 width={120}
                 height={30}
-                className="h-8 w-auto"
+                className="h-10 w-auto"
               />
-            </div>
+            </Link>
             <div className="nav-group flex flex-col justify-start items-start gap-0.5">
               <p className="text-[0.79rem] font-inter font-bold text-center mb-0 text-dark">
                 Call Us Today
@@ -57,14 +47,17 @@ export default function Navbar() {
       {/* DESKTOP NAVBAR */}
       <div className="hidden md:block">
         <div className="bg-white px-10 xl:py-7 py-6 xl:px-32">
+
           <div className="mx-auto flex justify-between items-center">
+            <Link href="/">
             <Image
               src="/logo.svg"
               alt="Platinum Window Expert"
-              width={120}
-              height={30}
-              className="h-10 lg:h-11 xl:h-12.5 w-auto"
-            />
+                width={120}
+                height={30}
+                className="h-12 lg:h-14 xl:h-16 w-auto"
+              />
+            </Link>
 
             <button className="flex flex-row items-center gap-2 rounded-sm text-sm lg:text-base xl:text-lg px-4 lg:px-5 py-3 font-bold font-inter cursor-pointer bg-red  text-white transition-all duration-300 hover:bg-blue">
               <Image

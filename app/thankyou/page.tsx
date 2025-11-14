@@ -264,9 +264,12 @@ function ThankYouContent() {
             
             {/* Email confirmation message */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-8">
-              <p className="text-green-800 font-medium">
-                ✓ A confirmation message has been sent to your email address.
+              <p className="text-green-800 font-medium mb-2">
+                A confirmation message has been sent to your email address.
               </p>
+              <p className="text-green-700 text-sm">
+                  The message contains information about National Debt Relief and next steps. Please make sure to check your spam folder if you don&apos;t see it in your inbox.
+                </p>
             </div>
             <div className="thankyou-contact-container bg-white p-6 rounded-lg shadow-md border border-gray-200">
               <h4 className="text-xl font-semibold text-gray-800 mb-3">

@@ -7,14 +7,14 @@ import Image from 'next/image'
 export default function Step() {
     return (
       <div
-        className='info w-full h-full p-4 md:p-9 md:pt-16  lg:py-13 lg:px-13 lg:pt-15 xl:p-10  xl:px-35 xl:py-18 bg-white'
+        className='info w-full h-full p-4 md:p-9 md:pt-32 lg:pt-34 lg:px-13 xl:p-10  xl:px-35 xl:pt-40 bg-white'
       >
         <div className='container mx-auto'>
           <div className='content w-full flex flex-col items-center justify-center md:items-start md:justify-start gap-8 md:gap-15 lg:gap-10 xl:gap-22'>
             <div className="title-container md:mt-3 xl:mt-0 text-center flex flex-col items-center justify-center md:items-start md:justify-start  gap-4 md:gap-4">
               <div className="title">
                 <h2
-                  className="title-text text-[1.75rem] md:text-left md:text-[1.9rem] lg:text-[2.3rem] xl:text-[2.6rem] xl:max-w-[500px] md:max-w-[400px] lg:max-w-[450px] font-bold font-nunito text-center md:text-left text-dark"
+                  className="title-text text-[1.75rem] md:text-[1.9rem] lg:text-[2.3rem] xl:text-[2.6rem] xl:max-w-[500px] md:max-w-[400px] lg:max-w-[450px] font-bold font-nunito text-center md:text-left text-dark"
                   style={{ lineHeight: 1.3 }}
                 >
                     {HELP_CONTENT.title}

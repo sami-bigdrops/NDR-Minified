@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -11,6 +12,7 @@ export default function Footer() {
 
           <div className="footer-main w-full flex flex-col justify-center items-center gap-4 md:flex-row md:items-start md:justify-between">
             <div className="footer-logo md:w-[30%] ">
+              <Link href="/">
               <Image
                 src="/logo.svg"
                 alt="Platinum Window Expert"
@@ -18,6 +20,7 @@ export default function Footer() {
                 height={30}
                 className="h-10 lg:h-13 xl:h-14.5 w-auto"
               />
+              </Link>
             </div>
             <div className="footer-text md:w-[70%]">
               <p className="text-[0.65rem] md:text-[0.75rem] lg:text-[0.9rem] xl:text-[0.95rem] font-inter text-justify font-normal lg:text-sm xl:text-base text-[#1E1E1E] " style={{ lineHeight: 1.5 }}>
@@ -37,26 +40,19 @@ export default function Footer() {
             </div>
 
             <div className="footer-links flex flex-row items-center justify-center mb-1 gap-2 lg:gap-3 ">
-              <a 
+              <Link 
                 href="/privacy-policy" 
                 className="text-[0.7rem] md:text-[0.8rem] lg:text-[0.95rem] xl:text-[1.1rem] font-inter font-medium lg:text-sm xl:text-base text-[#333333] hover:text-blue transition-colors duration-300"
               >
                 Privacy Policy
-              </a>
+              </Link>
               <span className="text-[#333333] text-[0.75rem] md:text-[0.8rem] lg:text-[0.95rem] xl:text-[1.1rem]">|</span>
-              <a 
+              <Link 
                 href="/terms-of-use" 
                 className="text-[0.7rem] md:text-[0.8rem] lg:text-[0.95rem] xl:text-[1.1rem] font-inter font-medium lg:text-sm xl:text-base text-[#333333] hover:text-blue transition-colors duration-300"
               >
                  Terms of Service
-              </a>
-              <span className="text-[#333333] text-[0.75rem] md:text-[0.8rem] lg:text-[0.95rem] xl:text-[1.1rem]">|</span>
-              <a 
-                href="#" 
-                className="text-[0.7rem] md:text-[0.8rem] lg:text-[0.95rem] xl:text-[1.1rem] font-inter font-medium lg:text-sm xl:text-base text-[#333333] hover:text-blue transition-colors duration-300"
-              >
-                Disclosures
-              </a>
+              </Link>
             </div>
           </div>
         </div>
