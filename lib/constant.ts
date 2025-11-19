@@ -47,7 +47,7 @@ export const HELP_CONTENT = {
     },
     {
       icon: "/h-3.svg",
-      title: "No Credit Score Impact",
+      title: "you get the best possible settlement",
     },
     {
       icon: "/h-4.svg",
