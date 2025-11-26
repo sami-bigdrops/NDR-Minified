@@ -1,6 +1,6 @@
 export const HERO_CONTENT = {
-  headline: "Debt Shouldn't Decide How You Live",
-  subheadline: "Less Debt. Less Noise. More Life",
+  headline: "See if you qualify for debt relief and regain control!",
+  subheadline: "From credit cards to medical bills - whatever your debt, we're here to help you become debt-free and live stress-free.",
   ctaButton: "Get My Free Check",
   trustBadges: {
     google: {
@@ -34,7 +34,7 @@ export const HERO_CONTENT = {
 };
 
 export const HELP_CONTENT = {
-  title: "How Nation Debt Relief Helps You",
+  title: "How Nation One Debt Relief Helps You",
   subheadline: "Simple solutions to reduce your debt and stress.",
   features: [
     {
@@ -73,11 +73,11 @@ export const STEP_SECTION = {
 
 export const REVIEWS_CONTENT = {
   headline: "See How We've Helped Others Find Relief",
-  subheadline: "Join thousands of people who took control of their finances with Nation Debt Relief.",
+  subheadline: "Join thousands of people who took control of their finances with Nation One Debt Relief.",
   reviews: [
     {
       rating: 5,
-      testimonial: "Nation Debt Relief helped me reduce my payments by 60% and guided me through every step. I finally feel in control of my finances again.",
+      testimonial: "Nation One Debt Relief helped me reduce my payments by 60% and guided me through every step. I finally feel in control of my finances again.",
       name: "Sarah M., California",
       image: "/t-1.svg",
     },

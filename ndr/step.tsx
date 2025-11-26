@@ -38,7 +38,7 @@ export default function Step() {
                 <button
                   ref={ctaButtonRef}
                   onClick={() => setIsModalOpen(true)}
-                  className="bg-red w-full text-white px-4 py-3 xl:py-4 text-[0.9rem] md:text-[0.9rem] lg:text-[1rem] xl:text-[1.1rem] rounded-sm font-semibold font-inter flex items-center justify-center gap-4 cursor-pointer hover:bg-blue transition-colors"
+                  className="bg-red w-full text-white px-4 py-3 xl:py-4 mt-10 text-[0.9rem] md:text-[0.9rem] lg:text-[1rem] xl:text-[1.1rem] rounded-sm font-semibold font-inter flex items-center justify-center gap-4 cursor-pointer hover:bg-blue transition-colors"
                 >
                   {STEP_SECTION.ctaButton}
                 </button>
@@ -54,10 +54,7 @@ export default function Step() {
                 width={480}
                 height={300}
                 className="w-full h-full object-cover"
-              />
-              
-              
-              
+              /> 
             </div>
           </div>
         </div>
@@ -67,7 +64,6 @@ export default function Step() {
       <FormModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        triggerElement={ctaButtonRef.current}
       />
     </div>
   );

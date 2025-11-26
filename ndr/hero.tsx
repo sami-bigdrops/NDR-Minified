@@ -228,7 +228,7 @@ export default function Hero() {
           <div className="hero-container relative z-10 flex flex-col items-center justify-center md:items-start md:justify-start gap-5 xl:gap-7 text-center">
             <div className="title">
               <h1
-                className="text-dark text-center font-nunito text-[1.8rem] md:text-4xl lg:text-[2.5rem] xl:text-[3rem] md:max-w-[360px] lg:max-w-[470px] xl:max-w-[550px] font-bold md:text-left"
+                className="text-dark text-center font-nunito text-[1.8rem] md:text-4xl lg:text-[2.5rem] xl:text-[3rem] md:max-w-[360px] lg:max-w-[470px] xl:max-w-[580px] font-bold md:text-left"
                 style={{ lineHeight: 1.2 }}
               >
                 {HERO_CONTENT.headline}
@@ -236,7 +236,7 @@ export default function Hero() {
             </div>
             <div className="sub-title">
               <p
-                className="text-blue text-center font-inter text-sm md:text-[0.9rem] lg:text-[1.2rem] xl:text-[1.3rem] font-normal"
+                className="text-blue max-w-[360px] md:max-w-[350px] lg:max-w-[450px] xl:max-w-[550px] text-center font-inter text-sm md:text-[0.9rem] lg:text-[1.2rem] xl:text-[1.3rem] font-normal md:text-left"
                 style={{ lineHeight: 1.4 }}
               >
                 {HERO_CONTENT.subheadline}
@@ -717,7 +717,7 @@ export default function Hero() {
                         className="w-6 lg:w-7 h-full object-contain"
                       />
                     </div>
-                    <div className="disclaimer-text font-inter text-justify text-[#333333]">
+                    <div className="disclaimer-text font-inter text-justify text-[#333333] mt-5">
                       <p className="text-[10px] lg:text-[12px] xl:text-[0.85rem]">
                       By submitting this form, I agree to the Nation One Debt
                       Relief <Link href="/terms-of-use" className="text-blue-500">Terms of Use</Link> and <Link href="/privacy-policy" className="text-blue-500">Privacy Policy</Link>. I authorize Nation

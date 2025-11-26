@@ -207,7 +207,7 @@ export default function PrivacyPolicy() {
                    We work with trusted partners to better serve our customers. Our current partners include:
                  </p>
                  <ul className="list-disc pl-6 md:pl-8 lg:pl-[30px] xl:pl-[35px] my-4 md:my-5 lg:my-6">
-                   <li className="text-xs md:text-sm lg:text-base xl:text-lg leading-[1.6] md:leading-[1.7] lg:leading-[1.8] text-[#1E1E1E] mb-3 md:mb-4 lg:mb-5 pl-2 md:pl-3 lg:pl-[5px]">Nation Debt Relief</li>
+                   <li className="text-xs md:text-sm lg:text-base xl:text-lg leading-[1.6] md:leading-[1.7] lg:leading-[1.8] text-[#1E1E1E] mb-3 md:mb-4 lg:mb-5 pl-2 md:pl-3 lg:pl-[5px]">Nation One Debt Relief</li>
                  </ul>
                  
                  <p className="text-xs md:text-sm lg:text-base xl:text-lg leading-[1.6] md:leading-[1.7] lg:leading-[1.8] text-[#1E1E1E] mb-4 md:mb-5 lg:mb-6">
